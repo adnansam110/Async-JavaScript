@@ -23,5 +23,4 @@
 
 fetch('https://jsonplaceholder.typicode.com/todos')
   .then(response => response.json())
-  .then(response=>console.table(response))
-  
+  .then(response=>console.table(response)) // We can write any thing in place of response here.
