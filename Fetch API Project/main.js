@@ -9,7 +9,7 @@ function getText()
         .then(response => response.text())
         .then(result=> 
             {
-                document.getElementById('output').innerHTML = result;
+                document.getElementById('output').innerHTML = `<h3 class="lead mb-4">${result}</h3>`;
             })
         .catch(err=>console.log(err));
     }
