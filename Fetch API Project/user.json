@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "name": "Adnan Sameer",
+        "email":"adnan@email.com"
+        
+    },
+    {
+        "id":2,
+        "name": "Usman Khalid",
+        "email":"Usman@email.com"
+        
+    },
+    {
+        "id":3,
+        "name": "Afreen Adnan",
+        "email":"Afreen@email.com"
+        
+    },
+    {
+        "id":4,
+        "name": "Hussain Ali",
+        "email":"hussain@email.com"
+        
+    }
+]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" 
+    crossorigin="anonymous">
+    <title>Fetch Api Sandbox</title>
+
+    <style>
+        button{
+            margin-right: 10px;
+        }
+        input, textarea{
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-4 mb-4">Fetch API Sandbox</h1>
+        <div class="d-flex">
+            <button class="btn btn-primary mr-4" id="getText">Get Text</button>
+            <button class="btn btn-success mr-4" id="getUsers">Get Users</button>
+            <button class="btn btn-warning mr-4" id="getPosts">Get Api Posts</button>
+        </div>
+         
+        <hr>
+        
+        <div id="output"></div>
+        <form id="addPost">
+            <div class="form-group">
+                <input class="form-control"type="text" id="title" placeholder="Title...">
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="body" placeholder="Body..."></textarea>
+            </div>
+            <input class="btn btn-secondary" type="submit" value="submit">
+        </form>
+        </div>
+    
+    <script src="./main.js"></script>
+</body>
+</html>
